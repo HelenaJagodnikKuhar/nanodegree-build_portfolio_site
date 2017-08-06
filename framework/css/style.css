@@ -1,0 +1,191 @@
+html {
+	font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #fff;
+	color: #2d2d2d;
+
+}
+
+
+/* Grid structure */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+
+.container {
+	margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+
+}
+
+
+.row {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+
+}
+
+
+.col-6 {
+	padding: 0 15px;
+    width: 50%;
+
+}
+
+
+.col-12 {
+	padding: 0 15px;
+	width: 100%;
+
+}
+
+
+.col-4 {
+	padding: 0 15px;
+	width: 33.33%;
+
+}
+
+
+/* Header */
+
+header {
+    margin-bottom: 20px;
+
+}
+
+
+hr {
+	border-bottom: 3px solid #d80037;
+
+}
+
+
+.logo {
+	width: 60px;
+
+}
+
+
+.title {
+	margin: 0;
+	text-transform: uppercase;
+
+}
+
+
+.titles {
+	color: #d80037;
+
+}
+
+
+.subtitle {
+	color: #254689;
+
+}
+
+
+/* Content */
+
+.main img {
+	width: 100%;
+
+}
+
+
+.cards img {
+	width: 100%;
+
+}
+
+
+.featured h2 {
+	font-size: 30px;
+	color: #001f3f;
+	font-weight: 500;
+	padding: 0 15px;
+
+}
+
+
+.card-title h2 {
+	font-size: 26px;
+	margin-bottom: 5px;
+
+}
+
+
+.card-title {
+	color: #254689;
+	font-weight: 400;
+	margin-bottom: 5px;
+
+}
+
+
+.card-reference {
+	text-align: center;
+
+}
+
+
+.card-reference a {
+	font-size: 16px;
+    color: #001f3f;
+    text-decoration: none;
+
+}
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 375px) {
+	.col-4 {
+		width: 100%;
+		margin-bottom: 20px;
+
+	}
+
+	.card_title h2 {
+		font-size: 24px;
+
+	}
+
+	.col-6 {
+		padding: 0;
+
+	}
+
+}
+
+
+@media only screen and (max-width : 412px) {
+	.col-4 {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.card_title h2 {
+		font-size: 24px;
+
+	}
+
+	.col-6 {
+		padding: 0;
+
+	}
+
+}
+
+
+
+
+
+
+
